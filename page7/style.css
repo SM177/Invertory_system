@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+
+    height: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+#main {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+    color: rgb(49, 46, 46);
+    margin-left: 8rem;
+}
+
+.logo-sec {
+
+    width: 13%;
+    margin-top: 10px;
+    margin-right: 3px;
+
+
+}
+
+
+.logo img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.email {
+    background-color: rgb(254, 203, 51);
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+
+
+.content {
+
+    margin: auto;
+    border-radius: 25px;
+    height: 80%;
+    width: 50%;
+
+
+
+}
+
+
+
+/* scrollbar setting */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 229, 229);
+    border-radius: 10px;
+    
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 197, 22);
+}
+
+.box {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 80%;
+    margin-top: 5.5rem;
+    align-items: center;
+    text-align: start;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid gray;
+
+}
+
+.enterprize-plane {
+    background-color: rgb(254, 203, 51);
+    padding: 0 8px;
+    width: 18%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    float: right;
+    margin-bottom: -0.8rem;
+    margin-top: 0.1rem;
+    color: black;
+}
+
+.web {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    height: 40%;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+td img {
+    width: 15%;
+    height: auto;
+}
+
+table th {
+    
+
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+table td{
+    font-size: 0.9rem;
+    padding: 2rem;
+}
+
+.add-site {
+    width: 15%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(237, 236, 236);
+    font-weight: bolder;
+    margin-bottom: 1.8rem;
+
+}
+
+
+
+.left-line {
+    position: absolute;
+    border: 1px solid gray;
+    width: 2.3%;
+    height: 2px;
+    left: 23%;
+    bottom: 55.9%;
+
+}
+
+.left-column-line {
+    position: absolute;
+    left: 20%;
+    top: 23%;
+
+}
+
+
+.line1 {
+    border-right: 2px solid gray;
+    height: 150px;
+    width: 26px;
+}
+
+.line2 {
+    border-right: 2px solid gray;
+    height: 150px;
+    width: 26px;
+}
+
+.line3 {
+    border-right: 2px solid gray;
+    height: 140px;
+    width: 26px;
+}
+
+
+
+
+.bottom-sec {
+    /* background-color: blue; */
+    width: 25%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+    ;
+}
+
+.support {
+    width: 21%;
+    height: 4%;
+    background-color: #f2abb7;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    border-radius: 0 0 18px 18px;
+    position: absolute;
+    margin-left: 2.3rem;
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+
+
+
+
+
+
+}
+
+.email-support {
+    width: 80.2%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 18px;
+    border: 2px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: -23px;
+    z-index: -1;
+    font-weight: bold
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #eae9ea;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6f6e6c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+#main {
+    position: absolute;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+
+/* RESPONSIVE */
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+
+    #sidebar {
+        position: fixed;
+
+        left: -30%
+    }
+
+    .container {
+        width: 100%;
+        font-size: 70%;
+        margin: 0;
+
+
+    }
+
+    #main {
+        display: block;
+    }
+
+ 
+    .closebtn {
+        display: block;
+    }
+
+    .header {
+
+        width: 100%;
+        padding: 0;
+        height: 10%;
+        justify-content: space-between;
+    }
+
+
+    .title {
+        font-size: 2rem;
+        margin-left: 4rem;
+    }
+
+    .logo-sec {
+        width: 10%;
+
+        text-align: center;
+
+    }
+
+    .name {
+
+        font-size: 9px;
+
+    }
+
+    .email {
+        width: 40%;
+        margin-top: 1px;
+    }
+
+    .left-column-line {
+        display: none;
+    }
+
+    .content {
+        margin-top: 5rem;
+        width: 100%;
+        height: 50%;
+
+
+    }
+
+    .box {
+
+        height: 90%;
+        margin-top: 5rem;
+        padding: 15px;
+    }
+
+    .enterprize-plane {
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
+
+    .add-site {
+        width: 30%;
+    }
+
+    table {
+        margin-top: 1.5rem;
+    }
+
+    tr th {
+
+        font-size: 10px;
+    }
+
+    tr td {
+        word-wrap: break-word;
+        font-size: 10px;
+    }
+
+    .left-line {
+        display: none;
+    }
+
+    .bottom-sec {
+        width: 60%;
+        text-align: center;
+
+
+    }
+
+    .support {
+        width: 40%;
+        margin-left: 4.5rem;
+        font-size: 13px;
+        padding-top: 15px;
+        word-wrap: break-word;
+
+    }
+
+    .email-support {
+        width: 70%;
+        padding-top: 20px;
+    }
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .header {
+
+        width: 80%;
+        padding: 0;
+        height: 10%;
+        justify-content: space-evenly;
+
+
+
+    }
+
+    .email {
+        display: none
+    }
+
+    .container {
+        width: 100%;
+        font-size: 70%;
+        margin: 0;
+
+    }
+
+    #main {
+        display: block;
+    }
+
+    #column {
+        display: block;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    .box {
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    table td , th{
+        font-size: 0.9rem;
+        padding: 14px;
+        padding-left: 3rem;
+        
+        
+    }
+    
+    table th{
+        font-size: 1rem;
+        font-weight: 800;
+
+    
+    }
+
+
+
+    td img {
+        height: 3vh;
+        width: 8vw;
+    }
+
+    .add-site {
+        width: 94%;
+        position: fixed;
+        font-size: 16px;
+
+    }
+
+    .enterprize-plane {
+        display: none;
+    }
+
+
+    .support,
+    .email-support {
+        font-size: 8px;
+
+    }
+
+    .email-support {
+        width: 65%;
+        padding-top: 13px;
+    }
+
+    .support {
+        width: 39%;
+        word-wrap: break-word;
+        margin-left: 2.3rem;
+    
+
+    }
+
+
+
+    #column {
+        position: absolute;
+        left: 10%;
+        top: 18%;
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+/* scroll */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}

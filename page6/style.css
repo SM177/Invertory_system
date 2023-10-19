@@ -1,0 +1,1050 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 98vh;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+
+.container {
+
+    width: 100%;
+
+    height: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+#main {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+    color: rgb(49, 46, 46);
+    margin-left: 8rem;
+}
+
+.logo-sec {
+
+    width: 13%;
+    margin-top: 10px;
+    margin-right: 3px;
+
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.email {
+    background-color: rgb(254, 203, 51);
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+
+.box {
+
+    width: 48%;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    justify-content: space-between;
+
+}
+
+main {
+
+    width: 70%;
+    height: 25%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(229, 227, 227);
+}
+
+.box-1 {
+
+    width: 100%;
+    height: 25%;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(239, 236, 236);
+}
+
+.box-1 table {
+    width: 100%;
+    height: 100%;
+    margin-top: 1.3rem;
+
+
+
+
+}
+
+.box-1 table th {
+
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bolder;
+
+}
+
+.box-1 table td {
+
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+
+
+.box-2 {
+    background-color: rgb(224, 229, 232);
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(228, 219, 219);
+}
+
+
+
+.box-2 table {
+    
+    width: 100%;
+    height: 40%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+}
+
+.box-2 table th {
+
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bolder;
+
+
+}
+
+.box-2 table td {
+    font-size: 1.6rem;
+
+}
+
+.box-3 {
+
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 13%;
+    align-items: center;
+    justify-content: center;
+}
+
+.good-box,
+.bounce-box,
+.time-box {
+    background-color: rgb(223, 219, 219);
+    width: 20%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+
+.data-sec {
+
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.today,
+.yesterday,
+.thismonth,
+.thisweek {
+
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    text-align: start;
+}
+
+
+
+.earning{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: ;
+}
+
+.data-sec{
+    margin-left: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.box-4 {
+    background-color: rgb(228, 239, 228);
+    width: 35%;
+    height: 6%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 8px;
+    font-size: 13px;
+    color: rgb(7, 170, 7);
+    border: none;
+    margin-top: 2rem;
+}
+
+.traffic {
+    position: absolute;
+    top: 74%;
+    padding: 1px 18px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background-color: green;
+    color: rgb(204, 241, 148);
+}
+
+
+.g-traffic2{
+    display: none;
+}
+
+
+
+.important {
+    position: absolute;
+    top: 81.2%;
+    left: 29%;
+    padding: 1px 18px;
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: rgb(216, 46, 46);
+    color: white;
+    padding: 3px 35px;
+    font-size: 15px;
+    ;
+}
+
+.box-5 {
+    border: 2px solid rgb(224, 217, 217);
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    color: rgb(7, 170, 7);
+    font-weight: bolder;
+    margin-top: 2rem;
+
+}
+
+.important2 {
+    display: none;
+    position: absolute;
+    top: 80.2%;
+    left: 29%;
+    padding: 1px 18px;
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: rgb(216, 46, 46);
+    color: white;
+    font-size: 15px;
+    
+}
+
+.box-52 {
+    display: none;
+    border: 2px solid rgb(158, 49, 49);
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    color: rgb(7, 170, 7);
+    font-weight: bolder;
+
+}
+
+
+
+.left-line {
+    position: absolute;
+    border: 1px solid rgb(141, 140, 140);
+    width: 11%;
+    height: 2px;
+    left: 23.5%;
+    top: 24.6%;
+
+}
+
+.left-column-line {
+    position: absolute;
+    left: 20.2%;
+    top: 22%;
+}
+
+.line1 {
+    border-right: 3px solid gray;
+    height: 150px;
+    width: 18px;
+}
+
+.line2 {
+    border-right: 3px solid gray;
+    height: 150px;
+    width: 18px;
+}
+
+.line3 {
+    border-right: 3px solid gray;
+    height: 140px;
+    width: 18px;
+}
+
+.top-countries {
+    background-color: rgb(224, 229, 232);
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    justify-content: center;
+    border-radius: 10px;
+    width: 15%;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 16.5%;
+    left: 50%;
+
+
+}
+
+.c-img {
+
+    width: 70%;
+
+}
+
+.top-countries img {
+
+    clip-path: circle();
+}
+
+.top-countries .img1 {
+    width: 22%;
+}
+
+.top-countries .img2 {
+    width: 14%;
+}
+
+.top-countries .img3 {
+    width: 15%;
+}
+
+.top-countries .img4 {
+    width: 12%;
+}
+
+.top-countries .img5 {
+    width: 12%;
+}
+
+.top-countries .img6 {
+    width: 15%;
+}
+
+
+
+
+.bottom-sec {
+    /* background-color: blue; */
+    width: 25%;
+    height: 8%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.support {
+    width: 20%;
+    height: 4%;
+    background-color: #f2abb7;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    border-radius: 0 0 18px 18px;
+    position: absolute;
+    margin-left: 2.6rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email-support {
+    width: 80.2%;
+    height: 53%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 18px;
+    border: 2px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: -25px;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #eae9ea;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6f6e6c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+#main {
+    position: absolute;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+
+/* RESPONSIVE */
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        color: black;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+
+
+    .header {
+
+        width: 100%;
+        padding: 0;
+        height: 10%;
+        justify-content: space-between;
+    }
+
+    
+    #main {
+        display: block;
+    }
+
+    #column {
+        display: none;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+
+
+
+    .title {
+        font-size: 2rem;
+        margin-left: 4rem;
+    }
+
+    .logo-sec {
+        width: 10%;
+
+        text-align: center;
+
+    }
+
+    .name {
+
+        font-size: 9px;
+
+    }
+
+    .email {
+        width: 100%;
+        margin-top: 1px;
+        font-size: 7px;
+    }
+
+
+    .left-line {
+        position: absolute;
+        border: 1px solid rgb(141, 140, 140);
+        width: 11%;
+        height: 2px;
+        left: 10%;
+        top: 24.6%;
+
+    }
+
+
+    .box {
+        flex: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .good-box,
+    .bounce-box,
+    .time-box,
+    .d-traffic,
+    .g-traffic {
+        font-size: 19px;
+    }
+
+    .g-traffic2{
+        display: block;
+    }
+
+    .traffic,
+    .important {
+        font-size: 16px;
+    }
+
+    .bottom-sec {
+        display: none;
+        /* width: 100%;
+        margin-top: 5rem; */
+    }
+
+    /* 
+    .support {
+        width: 60%;
+       margin-left: 9.3rem;
+      
+
+    }
+    .email-support {
+        width: 60%;
+        z-index: -1;
+        padding-top: 12px;
+    } */
+
+
+    .box-55 {
+        display: block;
+    }
+
+    .traffic {
+        padding-top: 3px;
+        top: 77%;
+
+
+    }
+
+    .important {
+        position: absolute;
+        top: 75%;
+        left: 17%;
+        font-size: 15px;
+        
+    }
+
+    .box-5 {
+        padding-top: 15px;
+        font-size: 18px;
+
+    }
+
+    .important2 {
+        display: block;
+        position: absolute;
+        top: 89%;
+        left: 17%;
+        font-size: 15px;
+        ;
+    }
+
+    .box-52 {
+        display: block;
+        padding-top: 15px;
+        font-size: 18px;
+
+    }
+
+    .box-4 {
+        padding-top: 18px;
+        font-size: 18px;
+
+    }
+
+}
+
+/* Mobile view */
+
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .header {
+
+        width: 80%;
+
+        padding: 0;
+        height: 10%;
+        justify-content: space-evenly;
+    }
+
+
+    .email {
+        display: none
+    }
+
+    ;
+
+    .container {
+        width: 100%;
+        height: 100%;
+        font-size: 70%;
+        margin: 0;
+
+    }
+
+    main {
+
+        width: 100%;
+        height: 45%;
+        margin-top: 0;
+        padding: 0;
+
+
+
+
+    }
+
+
+
+    .top-countries {
+        background-color: rgb(217, 220, 222);
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        justify-content: center;
+        border-radius: 8px;
+        width: 88%;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 18%;
+        left: 6%;
+
+    }
+
+    .c-img {
+
+        width: 70%;
+
+    }
+
+    .top-countries .img1 {
+        width: 22%;
+    }
+
+    .top-countries .img2 {
+        width: 14%;
+    }
+
+    .top-countries .img3 {
+        width: 15%;
+    }
+
+    .top-countries .img4 {
+        width: 12%;
+    }
+
+    .top-countries .img5 {
+        width: 12%;
+    }
+
+    .top-countries .img6 {
+        width: 15%;
+    }
+
+
+
+    .box-2 {
+        margin-top: 2rem;
+        height: 50%;
+        padding: 10px 0 0 10px;
+    }
+
+    .earning {
+        font-size: 17px;
+
+    }
+
+
+    .data-sec {
+
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        height: 70%;
+        padding: 15px;
+
+
+
+    }
+
+    .today,
+    .yesterday,
+    .thismonth,
+    .thisweek {
+
+        width: 50%;
+        align-items: center;
+        text-align: start;
+
+    }
+
+
+    .box-3 {
+
+        width: 100%;
+        height: 55%;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 10px;
+        margin-top: 1rem;
+
+
+    }
+
+    .good-box,
+    .bounce-box,
+    .time-box {
+        width: 30%;
+        height: 100%;
+        font-size: 14px;
+        padding: 10px;
+
+    }
+
+    .time-box h1,
+    .bounce-box h1,
+    .good-box h1 {
+        font-size: 20px;
+    }
+
+
+    .performance {
+
+        width: 50%;
+        padding: 0;
+        text-align: center;
+        ;
+
+    }
+
+
+    .box-1 {
+
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+
+
+    }
+
+    .box-1 table {
+        margin: auto;
+
+        width: 80%;
+        height: 60%;
+        margin-top: 3rem;
+        flex-direction: column;
+
+
+
+    }
+
+
+    #main {
+        display: block;
+    }
+
+
+
+    .left-line {
+        display: none;
+    }
+
+    .box {
+        margin-top: 0;
+        padding: 10px;
+    }
+
+
+    .g-traffic,
+    .g-traffic2 {
+
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .d-traffic {
+
+        font-size: 12px;
+
+    }
+
+    .traffic,
+    .important {
+        font-size: 12px;
+    }
+
+    .traffic {
+        top: 75%;
+
+    }
+
+
+    .box-4 {
+        background-color: rgb(228, 239, 228);
+        width: 60%;
+        margin-top: 2rem;
+        padding-top: 0;
+        padding: 10px;
+
+    }
+
+
+    .important {
+        position: absolute;
+        left: 8%;
+        top: 82.8%;
+        margin-top: 5px;
+        padding: 1px 15px;
+        border-radius: 25px;
+        border: 1px solid red;
+        background-color: rgb(216, 46, 46);
+        color: white;
+        padding: 3px 28px;
+        font-size: 12px;
+        ;
+    }
+
+    .important2 {
+        position: absolute;
+        margin-top: 1.8rem;
+        left: 8%;
+        padding: 1px 15px;
+        border-radius: 25px;
+        border: 1px solid red;
+        background-color: rgb(216, 46, 46);
+        color: white;
+        padding: 3px 28px;
+        font-size: 12px;
+    }
+
+    .box-5 {
+        border: 2px solid rgb(224, 217, 217);
+        width: 100%;
+        height: 55%;
+        margin-top: 2rem;
+
+    }
+
+    .box-55 {
+        border: 2px solid rgb(224, 217, 217);
+        width: 100%;
+        height: 25%;
+        align-items: center;
+        text-align: center;
+        padding-top: 12px;
+        border-radius: 10px;
+        color: rgb(7, 170, 7);
+        font-weight: bolder;
+        margin-top: 2rem;
+    }
+
+
+
+
+
+
+
+
+
+    #main {
+        display: block;
+    }
+
+    #column {
+        display: none;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* scroll */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
