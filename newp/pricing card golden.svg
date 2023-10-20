@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.74226in" height="5.06154in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 63.82 86.31"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:none}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#FFCC29}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-0 0l63.79 0 0.02 86.31 -63.79 0 -0.02 -86.31z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M15.56 7.47l32.68 0c4.51,0 8.19,3.69 8.19,8.19l0 53.91c0,4.51 -3.69,8.19 -8.19,8.19l-32.68 0c-4.51,0 -8.19,-3.69 -8.19,-8.19l0 -53.91c0,-4.51 3.69,-8.19 8.19,-8.19z"/>
+    </clipPath>
+      <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="50.58" y1="-13.05" x2="45.42" y2="21.63">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="0.329412" style="stop-opacity:0.501961; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+       <rect style="fill:url(#id3)" x="5.17" y="3.58" width="52.43" height="26.5"/>
+      </mask>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2273804872912">
+   <g style="clip-path:url(#id0)">
+    <image x="-0" y="0" width="63.82" height="86.31" xlink:href="pricing card golden_Images\pricing card golden_ImgID1.png"/>
+   </g>
+   <path class="fil0" d="M15.56 7.47l32.68 0c4.51,0 8.19,3.69 8.19,8.19l0 53.91c0,4.51 -3.69,8.19 -8.19,8.19l-32.68 0c-4.51,0 -8.19,-3.69 -8.19,-8.19l0 -53.91c0,-4.51 3.69,-8.19 8.19,-8.19z"/>
+   <g style="clip-path:url(#id1)">
+    <g>
+     <polygon id="_1" class="fil1" style="mask:url(#id2)" points="57.55,3.64 5.23,3.64 5.23,30.02 57.55,30.02 "/>
+    </g>
+   </g>
+   <path class="fil2" d="M15.56 7.47l32.68 0c4.51,0 8.19,3.69 8.19,8.19l0 53.91c0,4.51 -3.69,8.19 -8.19,8.19l-32.68 0c-4.51,0 -8.19,-3.69 -8.19,-8.19l0 -53.91c0,-4.51 3.69,-8.19 8.19,-8.19z"/>
+  </g>
+ </g>
+</svg>
